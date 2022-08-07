@@ -1,0 +1,14 @@
+body {
+  color: $text-color-dark;
+  font-family: 'MYRIADPRO', sans-serif;
+  font-weight: normal;
+  font-size: 20px;
+  line-height: 1.6;
+  background-color: $light-color;
+  padding-top: 4px;
+}
+
+.container {
+  max-width: 1160px;
+  margin: 0 auto;
+}
