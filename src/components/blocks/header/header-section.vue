@@ -25,24 +25,24 @@
 <style lang="scss">
 .header {
   position: fixed;
-  top: 0;
+  top: 5px;
   left: 0;
   &__wrapper {
-    max-width: 1281px;
+    min-width: 1280px;
     margin: 0 auto;
     display: flex;
     justify-content: space-between;
     height: 103px;
     align-items: center;
-    padding-left: 19px;
+    padding-left: 25px;
   }
   &__logo {
     object-fit: contain;
     width: 260px;
-    margin-top: -7px;
+    margin-top: -9px;
   }
   .menu {
-    padding-top: 10px;
+    padding-top: 8px;
     height: 36px;
     display: flex;
     align-items: center;
